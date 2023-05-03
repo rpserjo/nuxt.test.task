@@ -3,7 +3,7 @@ import mockCatalog from './mockCatalog.js';
 
 export const useCart = defineStore('cart', {
     state: () => ({
-        userInstallation: true,
+        userInstallation: false,
         userCart: [
             {
                 id: 1,

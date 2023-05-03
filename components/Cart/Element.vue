@@ -13,7 +13,7 @@
     cartStore.updateQuantity(item, quantity);
   }
 
-  const total = computed(() => product.price * product.quantity);
+  const total = computed(() => props.product.price * props.product.quantity);
 
   const handleRemove = () => {
     cartStore.removeItem(product.id);
