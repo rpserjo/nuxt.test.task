@@ -14,7 +14,7 @@
     });
     
     const data = { order, installation: cartStore.installation };
-    
+    alert('Заказ сформирован. Результат в консоли');
     console.log(data);
   }
 </script>
