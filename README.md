@@ -1,6 +1,6 @@
 # Nuxt Test Task
 ## Demo
-
+https://sweet-marzipan-4cfd7f.netlify.app/
 ## Setup
 
 Make sure to install the dependencies:
