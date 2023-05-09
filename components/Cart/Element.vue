@@ -16,7 +16,7 @@
   const total = computed(() => props.product.price * props.product.quantity);
 
   const handleRemove = () => {
-    cartStore.removeItem(product.id);
+    cartStore.removeItem(props.product.id);
   }
 </script>
 <template>
